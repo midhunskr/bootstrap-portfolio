@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.bg-gradient {
+    /* background: linear-gradient(135deg, #6e8efb, #a777e3); */
+    background: url('./images/background-gradient-lights.jpg') no-repeat center center/cover;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+}
+
+header .nav-link, h1, h2, h3, h4, h5, h6, p {
+    color: #fff !important;
+}
+
+#landing {
+    height: 100vh;
+    background: url('./images/background-gradient-lights.jpg') no-repeat center center/cover;
+}
+
+.btn{
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+}
+
+#clients .client-logo{
+    height: 100px;
+}
+
+#clients .client-logo img {
+    max-width: 56%;
+}
+
+.why-hire h3, .why-hire p{
+    color: black !important;
+}
+
+#services .service, #why-hire-me .why-hire {
+    transition: transform 0.3s;
+}
+
+#services .service:hover, #why-hire-me .why-hire:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+}
